@@ -13,18 +13,7 @@ let header = $(`
 
 </div>
 
-<div class="collapse navbar-collapse " id="navbarSupportedContent">
-  <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li> 
-   <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-   <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-   <div class="bike">
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
-     <rect/>
-     <g>
-       <g id="man-bike">
+
          <path id="Vector_2" opacity="0.1" d="M201.091 276.806L179.893 255.76L173.269 262.513L194.467 283.559L201.091 276.806Z" fill="black" />
          <path id="Vector_3" opacity="0.05" d="M269.455 177.344C269.455 177.344 326.601 189.531 325.92 197.189C325.238 204.847 268.194 187.328 268.194 187.328C268.194 187.328 264.731 181.519 269.455 177.344Z" fill="black" />
          <path id="Vector_4" opacity="0.1" d="M259.93 224.494C251.988 220.634 232.6 220.22 232.6 220.22L232.392 218.277L258.907 216.225L260.396 221.718C260.396 221.718 260.729 222.792 259.93 224.494Z" fill="black" />
