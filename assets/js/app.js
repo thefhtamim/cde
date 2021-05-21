@@ -90,7 +90,8 @@ let footer = $(`
   <div class="container p-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
-        <p class="tag" >"Develop a passion for learning. If you do, you will never cease to grow."
+        <p class="tag" >"'Imagination is everything. It is the preview of life's coming attractions'-Albert Einstein
+."
         </p>
           <div class="rounded-social-buttons tag">
             <a class="social-button twitter" href="#" target="_blank">
@@ -188,12 +189,16 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Get in Touch</h6>
-            <form>
-              <input type="text" name="field1" placeholder="Your Name" />
-              <input type="email" name="field2" placeholder="Email Address" />
-              <textarea name="field3" placeholder="Type your Message"></textarea>
-              <input type="submit" value="Send" />
-            </form>
+            <form action="https://send.pageclip.co/FK5YcgS4txSYyWDjBJr0r3TkvAO80yzA/fre" class="pageclip-form" method="post">
+  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+  <input type="text" name="name" value="Roscoe Jones" />
+  <input type="email" name="email" value="roscoe@example.com" />
+
+  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+  <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
+</form>
           </div>
         </div>
       </div>
