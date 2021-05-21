@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <title>FHTAMIM | Contact</title>
   <meta charset="UTF-8">
@@ -10,30 +10,31 @@
     content="This project serves free and beautiful portfolio template for everyone. The sole aim of this project is to help all those who are not sure or face difficulties while trying to create the perfect portfolio for themselves. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world." />
 
   
-<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
   
   <!-- script -->
-  <form action="ajax-contact-form.php" class="ajax-contact-form">
-    <p>
-    	<input type="text" name="name" placeholder="Name" required>
-    </p>
-    <p>
-    	<input type="email" name="email" placeholder="Email" required>
-    </p>
-    <p>
-    	<textarea name="message" rows="8" placeholder="Your Message" aria-required="true" required></textarea>
-    </p>
-    <p>
-    	<input type="submit" value="Send">
-    </p>
-
-    <div class="ajax-contact-form-response-success"></div>
-    <div class="ajax-contact-form-response-error"></div>
+  <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
 
 
