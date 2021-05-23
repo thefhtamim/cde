@@ -12,6 +12,16 @@ let header = $(`
   </div>
 
 </div>
+ <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  <ul class="navbar-nav ml-auto" id = "navbar-content">
+   <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+   <li class="nav-item"><a class="nav-link" href="https://form.jotform.com/211423771183855">Contact</a></li>
+   <li class="nav-item"><a class="nav-link" href="https://thefhtamim.medium.com/">Blog</a></li>
+   <div class="bike">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
+     <rect/>
+     <g>
+       <g id="man-bike">
 
 
          <path id="Vector_2" opacity="0.1" d="M201.091 276.806L179.893 255.76L173.269 262.513L194.467 283.559L201.091 276.806Z" fill="black" />
