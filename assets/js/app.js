@@ -15,7 +15,7 @@ let header = $(`
  <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item"><a class="nav-link" href="https://fhtamim.aidaform.com/contact-form">Contact</a></li>
+   <li class="nav-item"><a class="nav-link" href="mailto:hello@thefhtamim.me">Contact</a></li>
    <li class="nav-item"><a class="nav-link" href="https://thefhtamim.medium.com/">Blog</a></li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
