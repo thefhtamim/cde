@@ -109,7 +109,7 @@ let footer = $(`
 
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
-            <h6 class="display">Email : hello@fhtamim.me </h6>
+            <h6 class="display"></h6>
                      
 
           </div>
